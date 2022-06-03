@@ -16,7 +16,7 @@ public class CreateNewPostTest extends BaseTest {
 		sip.enterPassword("rxqapwd");
 		sip.clickSignin();
 		cnp.clickNewPost();
-		cnp.enterArticleName("Modern Marketing");
+		cnp.enterArticleName("Modern Marketing 2");
 		cnp.enterAboutArticle("Attracting New Audiences with Digital Marketing");
 		cnp.enterArticleArea(articleText);
 		cnp.enterTags("#modernmarkets,#digitalmarketing");

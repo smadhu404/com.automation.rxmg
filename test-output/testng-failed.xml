@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rxmg.tests.DeletePostTest">
+      <class name="com.rxmg.tests.LoginTests">
         <methods>
           <include name="setUp"/>
-          <include name="deletePost"/>
+          <include name="testSignupFail"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.rxmg.tests.DeletePostTest -->
+      </class> <!-- com.rxmg.tests.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

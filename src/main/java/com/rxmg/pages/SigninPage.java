@@ -19,16 +19,11 @@ public class SigninPage extends DriverScript {
 	
 	public void enterEmail(String email) 
     {
-    	System.out.println("enter email:"+email);
-    	System.out.println("enter textboxEmail:"+textboxEmail);
 		textboxEmail.sendKeys(email);	
-		System.out.println("enter email done:");
-    }
+	}
     public void enterPassword(String password)
     {
-    	System.out.println("enter password:"+password);
     	textboxPassword.sendKeys(password);
-    	System.out.println("enter passwordset:"+password);
     }
     public void clickSignin()
     {

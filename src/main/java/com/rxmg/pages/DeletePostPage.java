@@ -8,10 +8,11 @@ import com.rxmg.base.DriverScript;
 
 public class DeletePostPage extends DriverScript {
 	@FindBy(xpath = "//a[normalize-space()='madhuri']") WebElement signinUserlink;
-	@FindBy(xpath = "//a[@href='#/article/modern-marketing-2zbxe6']") WebElement articleLink;
+	@FindBy(xpath = "//h1[normalize-space()='Modern Marketing 2']") WebElement articleLink;
 	@FindBy(xpath = "//button[@class='btn btn-outline-danger btn-sm']") WebElement deleteButton;
 
-	public DeletePostPage()
+	
+public DeletePostPage()
 	{
 		PageFactory.initElements(driver, this);
 	}

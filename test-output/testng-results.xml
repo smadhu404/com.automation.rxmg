@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-28T23:16:55Z" name="Default suite" finished-at="2022-05-28T23:17:04Z" duration-ms="8560">
+  <suite started-at="2022-06-03T00:36:53Z" name="Default suite" finished-at="2022-06-03T00:37:02Z" duration-ms="8456">
     <groups>
     </groups>
-    <test started-at="2022-05-28T23:16:55Z" name="Default test" finished-at="2022-05-28T23:17:04Z" duration-ms="8560">
-      <class name="com.rxmg.tests.CreateNewPostTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rxmg.tests.CreateNewPostTest@7d2c9361]" started-at="2022-05-28T23:16:55Z" name="setUp" finished-at="2022-05-28T23:17:00Z" duration-ms="4770" status="PASS">
+    <test started-at="2022-06-03T00:36:53Z" name="Default test" finished-at="2022-06-03T00:37:02Z" duration-ms="8456">
+      <class name="com.rxmg.tests.DeletePostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rxmg.tests.DeletePostTest@25f4878b]" started-at="2022-06-03T00:36:54Z" name="setUp" finished-at="2022-06-03T00:36:57Z" duration-ms="3409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createPost()[pri:0, instance:com.rxmg.tests.CreateNewPostTest@7d2c9361]" started-at="2022-05-28T23:17:00Z" name="createPost" finished-at="2022-05-28T23:17:03Z" duration-ms="2687" status="PASS">
+        <test-method signature="deletePost()[pri:0, instance:com.rxmg.tests.DeletePostTest@25f4878b]" started-at="2022-06-03T00:36:57Z" name="deletePost" finished-at="2022-06-03T00:37:01Z" duration-ms="4107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createPost -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rxmg.tests.CreateNewPostTest@7d2c9361]" started-at="2022-05-28T23:17:03Z" name="tearDown" finished-at="2022-05-28T23:17:04Z" duration-ms="1020" status="PASS">
+        </test-method> <!-- deletePost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rxmg.tests.DeletePostTest@25f4878b]" started-at="2022-06-03T00:37:01Z" name="tearDown" finished-at="2022-06-03T00:37:02Z" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.rxmg.tests.CreateNewPostTest -->
+      </class> <!-- com.rxmg.tests.DeletePostTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
